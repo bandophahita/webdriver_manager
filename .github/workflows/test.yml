@@ -35,6 +35,7 @@ on:
       - setup.cfg
       - setup.py
       - webdriver_manager/__init__.py
+  workflow_dispatch:
 
 jobs:
   test:
